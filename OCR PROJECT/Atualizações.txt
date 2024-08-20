@@ -1,0 +1,9 @@
+Até agora tem um html bem simples só para ver se está funcionando a aplicação. 
+Está dando para upar uma imagem e fazer um download da imagem em pdf. 
+Possui o arquivo index.html na pasta template, pasta o qual ficará todos os arquivos html necessários. 
+O arquivo app.py está toda a aplicação flask, inclusive a rota. Com o avançar do projeto, podemos deixar a estrutura mais fiel ao curso que vimos.
+O arquivo tesseract_teste, foi usado somente para um teste da funcionalidade tesseract, será excluído em breve. 
+
+Para rodar o projeto é necessário instalar tesseract ocr. Bom ja copiar o caminho de instalação, para ser substituído na variável caminho_tesseract no app.py. 
+Após isso, rodar pip install -r requirements.txt.
+Ou instalar manualmente o flask, pillow, pytesseract.
