@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href=" {{ url_for('static', filename='styles.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload de Imagem</title>
+    <title>OCR</title>
 </head>
 <body>
     <header id="header">
@@ -12,16 +12,16 @@
         <h1>Sistema de OCR</h1>
     </header>
     <div class="conteudo">
-        <p>Faça o upload dos arquivos de imagens para converter em PDFs escritos</p>
+        <p>Faça o upload do arquivo PDF com imagens para converter em PDF escrito</p>
     </div>
     <form method="POST" enctype="multipart/form-data">
         <div class="divBtn">
             <img src="{{ url_for('static', filename='assets/images/Upload.png') }}" alt="">
-            <input type="file" name="image" id="image" accept="image/*" required>
+            <input type="file" name="arquivo" id="arquivo" required>
         </div>
         <br><br>
         <div class="divBtn">
-            <button class="btn" type="submit">Converter para PDF</button>
+            <button class="btn" type="submit">Converter </button>
         </div>
     </form>
 </body>
